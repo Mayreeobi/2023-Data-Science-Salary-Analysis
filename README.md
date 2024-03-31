@@ -7,7 +7,7 @@ Data Science is one of the top growing professions, it is an interdisciplinary f
 
 
 ## Problem Statement:
-To fully understand why most professionals are transitioning to data science jobs, an in-depth qualitative analysis is required focusing on the salaries, employment type, remote ratio and experience can provide cognitive reasons for the shift, as well as inform intending professionals on the paths to take.
+To fully understand why most professionals are transitioning to data science jobs, an in-depth qualitative analysis is required focusing on the salary distribution based on experience and employment types, remote ratio preferences and trends in entry-level hiring can provide cognitive reasons for the shift, as well as inform intending professionals on the paths to take.
 ### Key Questions
 -	What is the average salary?
 -	What is the average salary in different levels of  experience and employment types?
@@ -17,17 +17,18 @@ To fully understand why most professionals are transitioning to data science job
 -	What year has the highest influx of entry level professionals?
 -	Does the size of the company impact the salaries?
 
-
 ## Skills Demonstrated:
 1. SQL
 2. Microsoft PowerBI for visualization
 
 
 ## Data Sourcing:
-The dataset was obtained from kaggle.com https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023. 
+The dataset was sourced from kaggle.com https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023. 
 
 
 ## Data Transformation:
+The dataset underwent meticulous data transformation using SQL. This involved cleaning, correcting data types, and ensuring consistency in categorical variables such as experience level, employment type, and remote work ratio. These transformations laid the foundation for accurate analysis and visualization of data science salaries.
+
 The dataset contains 11 columns and 3755 rows. The followings were carried out:
 1. Renamed the dataset;
 2. Checked for duplicates, missing values and blank cells;
@@ -50,14 +51,14 @@ The dataset contains 11 columns and 3755 rows. The followings were carried out:
              50: Hybrid(Working from both office and home at times)
              100: Fully Remote(Working from Home)
         
-This was done using SQL. You can check the queries [Here](https://github.com/Mayreeobi/2023-Data-Science-Salary-Analysis/blob/main/dsqueries.sql)
+* SQL Queries [Here](https://github.com/Mayreeobi/2023-Data-Science-Salary-Analysis/blob/main/dsqueries.sql)
 
 
 ## Analysis and Visuzlization:
+Through interactive dashboards created using Microsoft PowerBI, the project offers comprehensive insights into data science salary trends. Key findings include the average salary landscape, demand for executive and full-time professionals, distribution of remote work preferences, top-paid job titles, geographical salary variations, trends in entry-level hiring, and the impact of company size on salaries.
 Dashboard snippet [Here](https://github.com/Mayreeobi/2023-Data-Science-Salary-Analysis/blob/main/datascience.pdf)
 
-
-You can find the interactive report [Here](https://app.powerbi.com/view?r=eyJrIjoiZGNlYzJkNzktNTM3MS00NWM1LWEwNzgtM2E5MDNhNjdlYzY2IiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
+* Interactive dashboard [Here](https://app.powerbi.com/view?r=eyJrIjoiZGNlYzJkNzktNTM3MS00NWM1LWEwNzgtM2E5MDNhNjdlYzY2IiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
 
 
 
@@ -73,10 +74,8 @@ You can find the interactive report [Here](https://app.powerbi.com/view?r=eyJrIj
 - Company Size and Salary Dynamics: While the company size is a factor influencing salaries, it is essential to consider various other factors that contribute to the compensation structure.
 
 ## Conclusion:
-Data Science is among the highest paying and in-demand jobs, the salaries vary depending on the skill sets, years of experience, job profile, location, company size amongst various factors. To belong to this set of highly skilled professionals, one has to:
-Learn the basics and develop the right data skills;
-Get the relevant skills such as programming languages, data visualization, storytelling;
-Belong to a data community where you will be encouraged and challenged;
-Work on Data Science projects to develop your skills.
-Practice! Practice!!  Practice!!!
+The project concludes that data science is a high-paying and in-demand field with salary variations influenced by factors such as skills, experience, job profile, location, and company size. To succeed in the data science domain, aspiring professionals are encouraged to develop essential skills, join data communities, work on projects, and engage in continuous learning and practice.
+
+By providing valuable insights into data science salaries, this project serves as a guide for professionals navigating the dynamic landscape of the data science industry.
+
 
